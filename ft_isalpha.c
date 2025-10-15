@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tatanavinogradova <tatanavinogradova@st    +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 11:15:07 by tatanavinog       #+#    #+#             */
-/*   Updated: 2025/10/15 15:19:14 by tatanavinog      ###   ########.fr       */
+/*   Created: 2025/10/15 15:31:20 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/15 15:31:22 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

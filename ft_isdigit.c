@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tatanavinogradova <tatanavinogradova@st    +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 12:09:50 by tatanavinog       #+#    #+#             */
-/*   Updated: 2025/10/15 15:24:13 by tatanavinog      ###   ########.fr       */
+/*   Created: 2025/10/15 15:31:40 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/15 15:31:42 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
