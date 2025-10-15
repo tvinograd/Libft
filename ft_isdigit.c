@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
+/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 15:31:40 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/15 15:31:42 by tvinogra         ###   ########.fr       */
+/*   Created: 2025/10/16 00:40:46 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/16 00:40:49 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

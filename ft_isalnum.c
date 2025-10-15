@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
+/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 15:27:34 by tatanavinog       #+#    #+#             */
-/*   Updated: 2025/10/15 15:40:15 by tvinogra         ###   ########.fr       */
+/*   Created: 2025/10/16 00:39:53 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/16 00:40:00 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

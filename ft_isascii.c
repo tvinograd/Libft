@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
+/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 15:41:25 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/15 15:52:30 by tvinogra         ###   ########.fr       */
+/*   Created: 2025/10/16 00:40:36 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/16 00:40:39 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

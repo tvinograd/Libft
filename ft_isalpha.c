@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tvinogra <tvinogra@student.42heilbronn.    +#+  +:+       +#+        */
+/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 15:31:20 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/15 15:31:22 by tvinogra         ###   ########.fr       */
+/*   Created: 2025/10/16 00:40:20 by tvinogra          #+#    #+#             */
+/*   Updated: 2025/10/16 00:40:26 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
