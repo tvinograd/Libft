@@ -6,16 +6,15 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:41:06 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 15:57:09 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/16 18:04:30 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
-// #include <string.h>
 
-int	ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (s[i])
@@ -25,17 +24,6 @@ int	ft_strlen(const char *s)
 
 // int	main(void)
 // {
-// 	{
 // 	char	input[] = "Hello";
-// 	printf("mine: %d\n", ft_strlen(input));
-// 	}
-// 
-// 	{
-// 	char	input[] = "Hello";
-// 	printf("orig: %lu\n", strlen(input));
-// 	}
-// 
-// 	// Tested original function for edge case (NULL) - segfault:
-// 	char 	*p = NULL;
-// 	printf("%lu\n", strlen(p));
+// 	printf("%zu\n", ft_strlen(input));
 // }
