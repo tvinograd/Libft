@@ -6,7 +6,7 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 13:13:58 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 15:36:02 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/16 16:45:55 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	unsigned char	*d;
-	unsigned char	*s;
+	unsigned char		*d;
+	const unsigned char	*s;
 
 	d = (unsigned char *)dst;
-	s = (unsigned char *)src;
+	s = (const unsigned char *)src;
 	while (n--)
 		*d++ = *s++;
 	return (dst);
@@ -33,7 +33,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 // 	void *d = ft_memcpy(dst, src, 6);
 // 	printf("dst mine: %s\n", dst);
 // 	}
-//	
+//
 // 	{
 // 	char	src[] = "I love";
 // 	char	dst[] = "I hate programming";
