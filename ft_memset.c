@@ -6,18 +6,17 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:50:41 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 13:06:45 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/16 15:57:16 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
+// #include <string.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	*p;
 
-	if (b == NULL)
-		return (b);
 	p = (unsigned char *)b;
 	while (len--)
 		*p++ = (unsigned char)c;
@@ -30,10 +29,12 @@ void	*ft_memset(void *b, int c, size_t len)
 // 	ft_memset(input, 'A', 3);
 // 	input[3] = '\0';
 // 	printf("%s\n", input);
-
+// 
+// 	// Tested original function for edge case (NULL) - segfault:
+// 
 // 	char	*b = NULL;
-// 	ft_memset(b, 'A', 3);
+// 	memset(b, 'A', 3);
 // 	printf("%s\n", b);
-
+// 
 // 	return (0);
 // }
