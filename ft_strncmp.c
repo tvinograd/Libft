@@ -6,7 +6,7 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 10:56:24 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 21:25:23 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/17 22:24:09 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	while (*s1 && (*s1 == *s2) && n)
+	while (n && *s1 && (*s1 == *s2))
 	{
 		s1++;
 		s2++;
