@@ -6,7 +6,7 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 12:22:13 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 18:20:19 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/17 15:14:14 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,9 @@ void	ft_bzero(void *s, size_t n)
 
 // int	main(void)
 // {
-// 	char	input[10];
+// 	char	input[5] = "Hello";
 // 	ft_bzero(input, 3);
 // 	printf("%s\n", input);
+// 	printf("%c%c%c%c%c\n", input[0], input[1], input[2], input[3], input[4]);
 // 	return (0);
 // }
