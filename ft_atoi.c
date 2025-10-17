@@ -6,7 +6,7 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:52:15 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 14:29:09 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/17 14:40:15 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	result = 0;
 
-	if (!str)
-		return (0);
 	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n'
 		|| str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
 		i++;
@@ -44,7 +42,7 @@ int	ft_atoi(const char *str)
 
 // int	main(void)
 // {
-// 	printf("%d\n", ft_atoi("\r\n\t\v\f  -42"));
-// 	printf("%d\n", atoi("\r\n\t\v\f  -42"));
+// 	printf("%d\n", ft_atoi("\t\v\n\f\r  -1234abc"));
+// 	printf("%d\n", atoi("\t\v\n\f\r  -1234abc"));
 // 	return (0);
 // }
