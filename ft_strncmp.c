@@ -6,7 +6,7 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 10:56:24 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 11:00:59 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/17 21:25:23 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	if (n == 0)
 		return (0);
 	else
-		return (*s1 - *s2);
+		return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 
 // int	main(void)
