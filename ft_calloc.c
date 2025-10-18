@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 23:03:32 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/18 16:41:03 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:45:46 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	void *p;
-	
+	void	*p;
+
 	p = malloc(count * size);
 	if (!p)
 		return (NULL);
@@ -29,7 +29,7 @@ void	*ft_calloc(size_t count, size_t size)
 // 	int i = 5;
 // 	int j = 2;
 // 	int z = i * j;
-	
+
 // 	str = ft_calloc(i, j);
 // 	for(int i = 0; i < z; i++)
 // 	{
