@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:52:15 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/18 15:59:23 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:40:53 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

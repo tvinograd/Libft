@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:40:59 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/18 16:00:06 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:42:29 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

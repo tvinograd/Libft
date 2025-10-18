@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 21:22:22 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/18 16:01:00 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:43:22 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

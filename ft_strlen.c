@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
+/*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:41:06 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/18 16:00:46 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:43:08 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
