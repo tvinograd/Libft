@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:22:35 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 22:53:48 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:00:53 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {

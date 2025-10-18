@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:18:58 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 22:33:47 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:00:13 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

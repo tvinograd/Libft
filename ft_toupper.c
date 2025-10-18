@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 21:07:13 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 21:21:40 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:01:02 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

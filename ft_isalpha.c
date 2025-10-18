@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:40:20 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 00:40:26 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 15:59:57 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {

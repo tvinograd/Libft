@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 21:24:38 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 10:41:19 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:00:28 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

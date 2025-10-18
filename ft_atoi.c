@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 13:52:15 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 15:12:49 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 15:59:23 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 12:22:13 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/17 15:14:14 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 15:46:18 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

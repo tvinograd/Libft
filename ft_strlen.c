@@ -6,11 +6,11 @@
 /*   tvinogra <tvinogra@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 00:41:06 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/16 18:04:30 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/18 16:00:46 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {
