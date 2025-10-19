@@ -6,11 +6,11 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 19:56:37 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/19 11:57:29 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/19 14:52:25 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "libft.h"
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
