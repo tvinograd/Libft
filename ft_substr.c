@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 19:56:37 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/19 14:52:25 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/19 20:35:40 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char	*sub;
 
 	if (ft_strlen(s) < start)
-		return (NULL);
-	sub = malloc(len + 1);
+		len = 0;
+	if (ft_strlen(s) < len)
+		sub = malloc(ft_strlen(s) + 1);
+	if (ft_strlen(s) >= len)
+		sub = malloc(len + 1);
 	if (!sub)
 		return (NULL);
 	i = 0;
@@ -33,8 +36,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (sub);
 }
 
-// // start is defined as being within 's',
-// // therefore start >= ft_strlen(s) is undefined and I can return NULL
+// start is defined as being within 's',
+// therefore start >= ft_strlen(s) is undefined and should return NULL, imo
 
 // int	main(void)
 // {

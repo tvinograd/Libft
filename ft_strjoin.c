@@ -6,11 +6,11 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 12:02:53 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/19 15:43:35 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/19 18:28:55 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "libft.h"
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
