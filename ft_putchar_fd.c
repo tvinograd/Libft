@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 15:56:15 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/26 16:36:05 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/26 16:51:54 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,5 @@ void	ft_putchar_fd(char c, int fd)
 // int main(void)
 // {
 // 	ft_putchar_fd('c', 1);
+//	return (0);
 // }
