@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 14:27:45 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/26 15:14:07 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/26 15:45:32 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,9 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 // int main(void)
 // {
-// 	char *input = ft_strmapi("Hello, my name is Tatiana", ft_even_is_uppercase);
-// 	printf("%s\n", input);
-// 	free(input);
+// 	char *input = "Hello, my name is Tatiana";
+
+// 	char *output = ft_strmapi(input, ft_even_is_uppercase);
+// 	printf("%s\n", output);
+// 	free(output);
 // }
