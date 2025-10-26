@@ -6,7 +6,7 @@
 #    By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/19 16:14:05 by tvinogra          #+#    #+#              #
-#    Updated: 2025/10/24 17:40:59 by tvinogra         ###   ########.fr        #
+#    Updated: 2025/10/26 14:30:25 by tvinogra         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,7 @@ ft_strjoin.c \
 ft_strlcat.c \
 ft_strlcpy.c \
 ft_strlen.c \
+ft_strmapi.c \
 ft_strncmp.c \
 ft_strnstr.c \
 ft_strrchr.c \
