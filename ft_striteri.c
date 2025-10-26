@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 15:24:05 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/26 15:52:05 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/26 17:30:09 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	{
 		f(i, &s[i]);
 		i++;
-	}	
+	}
 }
 
 // void	ft_even_is_uppercase(unsigned int i, char *c)
