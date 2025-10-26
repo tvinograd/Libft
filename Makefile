@@ -6,7 +6,7 @@
 #    By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/19 16:14:05 by tvinogra          #+#    #+#              #
-#    Updated: 2025/10/26 14:30:25 by tvinogra         ###   ########.fr        #
+#    Updated: 2025/10/26 15:32:03 by tvinogra         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ ft_memset.c \
 ft_split.c \
 ft_strchr.c \
 ft_strdup.c \
+ft_striteri.c \
 ft_strjoin.c \
 ft_strlcat.c \
 ft_strlcpy.c \
