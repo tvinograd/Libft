@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 19:56:37 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/19 20:35:40 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/27 10:00:52 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,23 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	int		i;
+	size_t	slen;
 	char	*sub;
 
-	if (ft_strlen(s) < start)
-		len = 0;
-	if (ft_strlen(s) < len)
-		sub = malloc(ft_strlen(s) + 1);
-	if (ft_strlen(s) >= len)
-		sub = malloc(len + 1);
+	if (!s)
+		return (NULL);
+	slen = ft_strlen(s);
+	if ((size_t)start >= slen)
+		return (ft_strdup(""));
+	if (len > slen - (size_t)start)
+		len = slen - (size_t)start;
+	sub = (char *)malloc((len + 1));
 	if (!sub)
 		return (NULL);
-	i = 0;
-	while (len-- && s[start])
-	{
-		sub[i] = s[start];
-		start++;
-		i++;
-	}
-	sub[i] = '\0';
+	ft_memcpy(sub, s + start, len);
+	sub[len] = '\0';
 	return (sub);
 }
-
-// start is defined as being within 's',
-// therefore start >= ft_strlen(s) is undefined and should return NULL, imo
 
 // int	main(void)
 // {
