@@ -6,13 +6,13 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 10:42:25 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/27 12:36:33 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/27 14:44:03 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	while (lst && lst->next)
 		lst = lst->next;
