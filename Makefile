@@ -6,15 +6,21 @@
 #    By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/19 16:14:05 by tvinogra          #+#    #+#              #
-#    Updated: 2025/10/27 11:25:52 by tvinogra         ###   ########.fr        #
+#    Updated: 2025/10/27 17:35:16 by tvinogra         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := libft.a
-CC := cc
-CFLAGS := -Wall -Wextra -Werror
-SRCDIR := .
-OBJDIR := obj
+NAME		:= libft.a
+CC			:= cc
+CPPFLAGS	:= -I.
+CFLAGS		:= -Wall -Wextra -Werror
+AR			:= ar
+ARFLAGS		:= rcs
+RM			:= rm -rf
+
+SRCDIR		:= src
+BONDIR		:= bonus
+OBJDIR		:= obj
 
 FILES := \
 ft_atoi.c \
@@ -26,15 +32,6 @@ ft_isascii.c \
 ft_isdigit.c \
 ft_isprint.c \
 ft_itoa.c \
-ft_lstadd_back.c \
-ft_lstadd_front.c \
-ft_lstclear.c \
-ft_lstdelone.c \
-ft_lstiter.c \
-ft_lstlast.c \
-ft_lstmap.c \
-ft_lstnew.c \
-ft_lstsize.c \
 ft_memchr.c \
 ft_memcmp.c \
 ft_memcpy.c \
@@ -61,24 +58,45 @@ ft_substr.c \
 ft_tolower.c \
 ft_toupper.c
 
-SRCS := $(addprefix $(SRCDIR)/, $(FILES))
-OBJS := $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRCS))
+BONFILES := \
+ft_lstadd_back.c \
+ft_lstadd_front.c \
+ft_lstclear.c \
+ft_lstdelone.c \
+ft_lstiter.c \
+ft_lstlast.c \
+ft_lstmap.c \
+ft_lstnew.c \
+ft_lstsize.c 
+
+SRCS		:= $(addprefix $(SRCDIR)/,$(FILES))
+BONSRCS		:= $(addprefix $(BONDIR)/,$(BONFILES))
+
+OBJS		:= $(SRCS:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
+BONOBJS		:= $(BONSRCS:$(BONDIR)/%.c=$(OBJDIR)/%.o)
 
 all: $(NAME)
 
+$(NAME): $(OBJS)
+	@$(AR) $(ARFLAGS) $(NAME) $(OBJS)
+
+bonus: $(OBJS) $(BONOBJS)
+	@$(AR) $(ARFLAGS) $(NAME) $(OBJS) $(BONOBJS)
+
 $(OBJDIR)/%.o: $(SRCDIR)/%.c
 	@mkdir -p $(dir $@)
-	@$(CC) $(CFLAGS) -c $< -o $@ -g
+	@$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
 
-$(NAME): $(OBJS)
-	@ar -rcs $(NAME) $(OBJS)
+$(OBJDIR)/%.o: $(BONDIR)/%.c
+	@mkdir -p $(dir $@)
+	@$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
 
 clean:
-	@rm -rf $(OBJDIR)
+	@$(RM) $(OBJDIR)
 
 fclean: clean
-	@rm -f $(NAME)
+	@$(RM) $(NAME)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus

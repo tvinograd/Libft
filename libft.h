@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 15:23:27 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/27 10:41:39 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/27 16:34:32 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define LIBFT_H
 # include <unistd.h> 
 # include <stdlib.h>
-# include <stdio.h>
+// # include <stdio.h>
 
 typedef struct s_list
 {
