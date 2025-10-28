@@ -6,23 +6,18 @@
 #    By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/19 16:14:05 by tvinogra          #+#    #+#              #
-#    Updated: 2025/10/27 17:35:16 by tvinogra         ###   ########.fr        #
+#    Updated: 2025/10/28 09:19:47 by tvinogra         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		:= libft.a
-CC			:= cc
-CPPFLAGS	:= -I.
-CFLAGS		:= -Wall -Wextra -Werror
-AR			:= ar
-ARFLAGS		:= rcs
-RM			:= rm -rf
+NAME = libft.a
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
+AR = ar
+ARFLAGS = rcs
+RM = rm -f
 
-SRCDIR		:= src
-BONDIR		:= bonus
-OBJDIR		:= obj
-
-FILES := \
+SRCS = \
 ft_atoi.c \
 ft_bzero.c \
 ft_calloc.c \
@@ -58,7 +53,7 @@ ft_substr.c \
 ft_tolower.c \
 ft_toupper.c
 
-BONFILES := \
+BONUS_SRCS = \
 ft_lstadd_back.c \
 ft_lstadd_front.c \
 ft_lstclear.c \
@@ -69,30 +64,22 @@ ft_lstmap.c \
 ft_lstnew.c \
 ft_lstsize.c 
 
-SRCS		:= $(addprefix $(SRCDIR)/,$(FILES))
-BONSRCS		:= $(addprefix $(BONDIR)/,$(BONFILES))
-
-OBJS		:= $(SRCS:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
-BONOBJS		:= $(BONSRCS:$(BONDIR)/%.c=$(OBJDIR)/%.o)
+OBJS = $(SRCS:.c=.o)
+BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	@$(AR) $(ARFLAGS) $(NAME) $(OBJS)
+	@$(AR) $(ARFLAGS) $@ $^
 
-bonus: $(OBJS) $(BONOBJS)
-	@$(AR) $(ARFLAGS) $(NAME) $(OBJS) $(BONOBJS)
+bonus: $(BONUS_OBJS)
+	@$(AR) $(ARFLAGS) $(NAME) $^
 
-$(OBJDIR)/%.o: $(SRCDIR)/%.c
-	@mkdir -p $(dir $@)
-	@$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
-
-$(OBJDIR)/%.o: $(BONDIR)/%.c
-	@mkdir -p $(dir $@)
-	@$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
+%.o: %.c libft.h
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	@$(RM) $(OBJDIR)
+	@$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	@$(RM) $(NAME)
