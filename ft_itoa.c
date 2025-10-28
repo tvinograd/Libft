@@ -6,13 +6,13 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 17:38:33 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/26 14:08:21 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/28 16:37:10 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_intlen(long number)
+static int	ft_intlen(long number)
 {
 	int	len;
 
