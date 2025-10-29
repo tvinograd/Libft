@@ -6,7 +6,7 @@
 /*   By: tvinogra <tvinogra@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 10:42:30 by tvinogra          #+#    #+#             */
-/*   Updated: 2025/10/27 15:58:59 by tvinogra         ###   ########.fr       */
+/*   Updated: 2025/10/28 17:01:40 by tvinogra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*newnode;
 	void	*temp;
 
-	if (!lst || !del)
+	if (!lst || !f || !del)
 		return (NULL);
 	newlist = NULL;
 	while (lst)
